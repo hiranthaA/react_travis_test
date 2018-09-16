@@ -123,7 +123,7 @@ class ContentOne extends Component {
 
   validateContact() {
     var contactok = true;
-    if (this.state.contact === null || this.state.contact === "" || this.state.contact.length != 10) {
+    if (this.state.contact === null || this.state.contact === "" || this.state.contact.length !== 10) {
       console.log("contact false");
       contactok = false;
     }
